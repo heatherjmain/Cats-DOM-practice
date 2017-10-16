@@ -7,6 +7,30 @@
   color: red;
 }
 
-.size-image{
-  width: 500px;
+.image{
+  height: 300px;
+  padding: 25px, 0, 25px, 0;
+  border: 7px solid #28190E;
+  border-radius: 50px;
+}
+
+.cat{
+  background-color: #119DA4;
+  width: 600px;
+  padding: 35px 25px 15px 25px;
+  margin: 20px 20px 20px 20px;
+}
+
+
+#cats{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cat li{
+  list-style-type: none;
+  font-size: 35px;
+  font-family: cursive;
+  font-weight: bold;
+  padding: 10px 0 10px 0;
 }

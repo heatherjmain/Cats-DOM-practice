@@ -1,6 +1,6 @@
 var newCatArray = [
   {name: "Name: Tom",
-  favFood: "Favourite food: Gerry",
+  favFood: "Favourite food: Jerry",
   url: "https://scontent-cdg2-1.xx.fbcdn.net/v/t31.0-8/15723477_1178616082214143_92120915568290771_o.jpg?oh=b18aeced23e5b99b704388ab9cbf583a&oe=5A6A9374&dl=1"},
 
   {name: "Name: Boba",
@@ -42,7 +42,7 @@ var createCatLi3 = function() {
 var createCatImg = function(url) {
   var catImg = document.createElement("img");
   catImg.src = url;
-  catImg.classList.add("size-image");
+  catImg.classList.add("image");
   return catImg;
 }
 
