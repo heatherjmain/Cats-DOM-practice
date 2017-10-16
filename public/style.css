@@ -25,12 +25,13 @@
 #cats{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .cat li{
   list-style-type: none;
-  font-size: 35px;
-  font-family: cursive;
-  font-weight: bold;
+  font-size: 25px;
+  font-family: Chalkduster, fantasy;
   padding: 10px 0 10px 0;
+  text-align: center;
 }
